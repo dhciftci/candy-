@@ -1,0 +1,46 @@
+body {
+  background-color: #f5d9f5;
+}
+#mainnavbar .navbar-brand {
+  color: #ea1c2c;
+}
+#mainnavbar .nav-link {
+  color: white;
+}
+#mainnavbar .nav-link:hover {
+  color: #ea1c2c;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+#mainnavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#headinggroup span {
+  color: #ea1c2c;
+}
+#headinggroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+@media (max-width: 1200px) {
+  #headinggroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+
+p.lead {
+  color: #f498b8;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
